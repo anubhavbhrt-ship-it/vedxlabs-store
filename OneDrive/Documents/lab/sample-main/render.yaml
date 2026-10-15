@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: vedxlabs
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: ADMIN_SESSION_SECRET
+        generateValue: true
+      # You can optionally set ADMIN_PASSWORD here or set it securely on the first login
+      # - key: ADMIN_PASSWORD
+      #   sync: false

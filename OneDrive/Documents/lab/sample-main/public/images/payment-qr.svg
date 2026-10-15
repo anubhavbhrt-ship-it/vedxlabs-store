@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" fill="none">
+  <rect width="300" height="300" rx="20" fill="#FFFFFF" stroke="#E5E5EB" stroke-width="2"/>
+  
+  <!-- Corner Targets -->
+  <rect x="25" y="25" width="60" height="60" rx="8" fill="#0B0B0E"/>
+  <rect x="35" y="35" width="40" height="40" rx="4" fill="#FFFFFF"/>
+  <rect x="43" y="43" width="24" height="24" rx="2" fill="#0B0B0E"/>
+
+  <rect x="215" y="25" width="60" height="60" rx="8" fill="#0B0B0E"/>
+  <rect x="225" y="35" width="40" height="40" rx="4" fill="#FFFFFF"/>
+  <rect x="233" y="43" width="24" height="24" rx="2" fill="#0B0B0E"/>
+
+  <rect x="25" y="215" width="60" height="60" rx="8" fill="#0B0B0E"/>
+  <rect x="35" y="225" width="40" height="40" rx="4" fill="#FFFFFF"/>
+  <rect x="43" y="233" width="24" height="24" rx="2" fill="#0B0B0E"/>
+
+  <!-- Pixel Grid Pattern for QR appearance -->
+  <g fill="#0B0B0E">
+    <!-- Top section -->
+    <rect x="100" y="30" width="16" height="16" rx="2"/>
+    <rect x="126" y="30" width="16" height="16" rx="2"/>
+    <rect x="156" y="30" width="16" height="16" rx="2"/>
+    <rect x="180" y="30" width="16" height="16" rx="2"/>
+    
+    <rect x="100" y="55" width="16" height="16" rx="2"/>
+    <rect x="140" y="55" width="24" height="16" rx="2"/>
+    <rect x="180" y="55" width="16" height="16" rx="2"/>
+
+    <!-- Middle section -->
+    <rect x="30" y="105" width="16" height="24" rx="2"/>
+    <rect x="60" y="105" width="24" height="16" rx="2"/>
+    <rect x="100" y="90" width="20" height="20" rx="2"/>
+    <rect x="135" y="90" width="16" height="30" rx="2"/>
+    <rect x="165" y="90" width="20" height="20" rx="2"/>
+    <rect x="200" y="105" width="20" height="20" rx="2"/>
+    <rect x="235" y="105" width="30" height="16" rx="2"/>
+
+    <!-- Bottom Left & Right -->
+    <rect x="100" y="130" width="25" height="16" rx="2"/>
+    <rect x="175" y="130" width="25" height="16" rx="2"/>
+    <rect x="235" y="140" width="16" height="30" rx="2"/>
+
+    <rect x="30" y="150" width="24" height="16" rx="2"/>
+    <rect x="70" y="150" width="16" height="24" rx="2"/>
+    <rect x="100" y="165" width="16" height="24" rx="2"/>
+    <rect x="130" y="165" width="35" height="16" rx="2"/>
+    <rect x="180" y="165" width="16" height="24" rx="2"/>
+
+    <!-- Bottom Section -->
+    <rect x="100" y="215" width="20" height="20" rx="2"/>
+    <rect x="135" y="215" width="16" height="30" rx="2"/>
+    <rect x="170" y="215" width="30" height="16" rx="2"/>
+    <rect x="215" y="215" width="16" height="20" rx="2"/>
+    <rect x="245" y="215" width="20" height="20" rx="2"/>
+
+    <rect x="100" y="250" width="30" height="16" rx="2"/>
+    <rect x="145" y="250" width="20" height="20" rx="2"/>
+    <rect x="185" y="250" width="20" height="20" rx="2"/>
+    <rect x="220" y="245" width="45" height="16" rx="2"/>
+  </g>
+
+  <!-- Center Brand Chip -->
+  <rect x="118" y="118" width="64" height="64" rx="14" fill="#0B0B0E" stroke="#FFFFFF" stroke-width="4"/>
+  <rect x="128" y="128" width="44" height="44" rx="8" fill="#F59E0B"/>
+  <text x="150" y="156" fill="#0B0B0E" font-family="system-ui, sans-serif" font-weight="900" font-size="16" text-anchor="middle">UPI</text>
+</svg>

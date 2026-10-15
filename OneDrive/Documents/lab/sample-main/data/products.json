@@ -1,0 +1,38 @@
+[
+  {
+    "id": "prod_01",
+    "slug": "master-ai-in-28-days",
+    "title": "Master AI in 28 Days",
+    "shortDescription": "A practical, beginner-friendly roadmap to understand AI, use AI effectively and start building with it.",
+    "tagline": "From Zero to Confident With AI — a daily guide for beginners.",
+    "fullDescription": "Master AI in 28 Days is a structured, practical digital blueprint created to take everyday learners, students, and professionals from complete confusion to confident daily AI execution.\n\nInstead of overwhelming you with 40 hours of passive video lectures, this guide breaks down modern artificial intelligence into 28 focused daily micro-lessons. Each day features one mental model, one prompt framework, and one hands-on exercise you can complete in under 20 minutes.\n\nBy Day 28, you will comfortably integrate AI into your daily work, automate repetitive tasks, prototype software without coding, and understand how to package AI skills into freelance services or creator income.",
+    "description": "A practical, beginner-friendly roadmap to understand AI, use AI effectively and start building with it.",
+    "price": 9900,
+    "originalPrice": 49900,
+    "coverImage": "/images/ai-28-days-cover.png",
+    "galleryImages": [
+      "/images/ai-28-days-cover.png"
+    ],
+    "features": [
+      "28 daily action lessons with zero fluff",
+      "No programming or tech background required",
+      "50+ production-tested prompt templates",
+      "Workflows for ChatGPT, Claude, Cursor & Midjourney",
+      "Monetisation & client acquisition playbook",
+      "Lifetime updates as new AI models launch"
+    ],
+    "whatsIncluded": [
+      "Complete 28-Day Roadmap (PDF & Interactive Guide)",
+      "Production Prompt Vault (50+ categorized prompts)",
+      "Vetted AI Tool Stack Cheatsheet (Free & Paid alternatives)",
+      "Starter Code & Landing Page Templates",
+      "Direct email/DM access to Anubhav Bharti"
+    ],
+    "category": "Guide",
+    "fileReference": "master-ai-in-28-days-edition-2026.pdf",
+    "isPublished": true,
+    "isFeatured": true,
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "updatedAt": "2026-10-12T05:30:00.000Z"
+  }
+]

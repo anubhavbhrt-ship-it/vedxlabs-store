@@ -1,0 +1,35 @@
+{
+  "brand": {
+    "creatorName": "Anubhav Bharti",
+    "avatarUrl": "/images/anubhav.png",
+    "brandTagline": "AI Enthusiast, Web Developer & Digital Creator",
+    "supportEmail": "contact@anubhavbharti.dev",
+    "bio": "Building practical AI guides, production toolkits, and modern web products. Helping learners across India master AI workflows.",
+    "location": "India",
+    "twitterHandle": "@vedxlabs",
+    "instagramHandle": "@vedxlabs",
+    "githubHandle": "vedxlabs",
+    "youtubeHandle": "@vedxlabs",
+    "accentColor": "#F59E0B"
+  },
+  "homepage": {
+    "heroEyebrow": "A PRACTICAL GUIDE FOR BEGINNERS",
+    "heroHeadline": "Master AI in 28 Days",
+    "heroSubheadline": "From Zero to Confident With AI",
+    "heroDescription": "A practical, beginner-friendly roadmap to understand AI, use AI effectively and start building with it.",
+    "aboutHeading": "Building honest, practical tools for the new generation of creators.",
+    "aboutText": "I created Master AI in 28 Days as the practical, honest manual I wished existed: zero gatekeeping, tested prompts, clear frameworks, and affordable for every learner at just ₹99.",
+    "featuredProductSlug": "master-ai-in-28-days",
+    "guaranteeText": "100% Satisfaction Guarantee",
+    "accentColor": "#F59E0B"
+  },
+  "manualPayment": {
+    "enabled": true,
+    "paymentIdentifier": "anubhav@upi",
+    "payeeName": "Anubhav Bharti",
+    "qrImageUrl": "/images/payment-qr.svg",
+    "instructions": "1. Open any UPI application (Google Pay, PhonePe, Paytm, CRED, BHIM).\n2. Scan the QR code or enter the UPI ID provided.\n3. Verify the recipient name matches 'Anubhav Bharti'.\n4. Pay the exact order amount.\n5. Copy the 12-digit UPI Reference / UTR Number, upload the confirmation screenshot, and click 'I\\'ve completed payment'.",
+    "supportEmail": "contact@anubhavbharti.dev"
+  },
+  "updatedAt": "2026-10-09T08:11:02.311Z"
+}

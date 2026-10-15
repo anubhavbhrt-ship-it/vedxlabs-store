@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────
+   VEDXLABS DESIGN SYSTEM
+   Editorial Minimal · Warm Yellow Accent · Deep Burgundy Accent
+   Near-Black & Crisp Off-White Foundation
+   ───────────────────────────────────────────────────────────── */
+
+@theme {
+  /* ── Core Colors ── */
+  --color-brand-black:        #0B0B0E;
+  --color-brand-black-soft:   #141419;
+  --color-brand-white:        #FFFFFF;
+  --color-brand-ground:       #FAFAFC;
+
+  /* ── Warm Yellow (Primary Accent) ── */
+  --color-brand-yellow:       #F59E0B;
+  --color-brand-yellow-hover: #D97706;
+  --color-brand-yellow-soft:  #FEF3C7;
+  --color-brand-yellow-border:#FDE68A;
+
+  /* ── Deep Burgundy / Red (Secondary Accent - Used Sparingly) ── */
+  --color-brand-burgundy:     #7F1D1D;
+  --color-brand-burgundy-soft:#FFF1F2;
+  --color-brand-burgundy-border:#FECDD3;
+
+  /* ── Neutrals ── */
+  --color-neutral-50:  #F9F9FB;
+  --color-neutral-100: #F3F3F6;
+  --color-neutral-200: #E6E6EB;
+  --color-neutral-300: #D5D5DE;
+  --color-neutral-400: #A3A3B2;
+  --color-neutral-500: #717182;
+  --color-neutral-600: #4C4C5B;
+  --color-neutral-700: #33333E;
+  --color-neutral-800: #1E1E26;
+  --color-neutral-900: #121217;
+
+  /* ── Semantic Mappings ── */
+  --color-bg:        var(--color-brand-ground);
+  --color-surface:   #FFFFFF;
+  --color-border:    var(--color-neutral-200);
+  --color-text-main: var(--color-brand-black);
+  --color-text-muted:var(--color-neutral-500);
+
+  /* ── Typography ── */
+  --font-sans: var(--font-geist-sans), 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: var(--font-geist-mono), 'Fira Code', monospace;
+
+  /* ── Radii ── */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-subtle: 0 1px 3px rgba(11, 11, 14, 0.04), 0 1px 2px rgba(11, 11, 14, 0.02);
+  --shadow-card:   0 2px 10px rgba(11, 11, 14, 0.03), 0 1px 3px rgba(11, 11, 14, 0.02);
+  --shadow-elevated: 0 12px 36px rgba(11, 11, 14, 0.07), 0 2px 8px rgba(11, 11, 14, 0.03);
+  --shadow-yellow: 0 4px 20px rgba(245, 158, 11, 0.22);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   GLOBAL BASE
+   ───────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Restrained selection highlight */
+::selection {
+  background-color: #FDE68A;
+  color: #121217;
+}
+
+/* Clean minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-neutral-300);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-neutral-400);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   TYPOGRAPHY & LAYOUT UTILITIES
+   ───────────────────────────────────────────────────────────── */
+.text-balance {
+  text-wrap: balance;
+}
+
+.heading-editorial {
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+}
+
+.heading-section {
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+}
+
+.text-overline {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+.container-padded {
+  width: 100%;
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .container-padded {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-padded {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+/* Clean interactive ring */
+.focus-ring {
+  outline: 2px solid var(--color-brand-yellow);
+  outline-offset: 2px;
+}
